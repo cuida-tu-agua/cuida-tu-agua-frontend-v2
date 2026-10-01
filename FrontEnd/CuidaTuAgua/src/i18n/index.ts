@@ -40,6 +40,12 @@ import enFooter from './translations/en/footer.json';
 import frFooter from './translations/fr/footer.json';
 import ptFooter from './translations/pt/footer.json';
 
+// HU-008 / HU-009: pantallas de crear y editar hogar ("lugar")
+import esHogar from './translations/es/hogar.json';
+import enHogar from './translations/en/hogar.json';
+import frHogar from './translations/fr/hogar.json';
+import ptHogar from './translations/pt/hogar.json';
+
 const LANGUAGE_KEY = 'appLang';
 
 i18n
@@ -53,7 +59,8 @@ i18n
         dashboard: esDashboard,
         settings: esSettings,
         profile: esProfile,
-        footer: esFooter
+        footer: esFooter,
+        hogar: esHogar
       },
       fr: { 
         landing: frLanding,
@@ -62,7 +69,8 @@ i18n
         dashboard: frDashboard,
         settings: frSettings,
         profile: frProfile,
-        footer: frFooter
+        footer: frFooter,
+        hogar: frHogar
       },
       
       pt: { 
@@ -72,7 +80,8 @@ i18n
         dashboard: ptDashboard,
         settings: ptSettings,
         profile: ptProfile,
-        footer: ptFooter
+        footer: ptFooter,
+        hogar: ptHogar
       },
       en: {
         landing: enLanding,
@@ -81,12 +90,13 @@ i18n
         dashboard: enDashboard,
         settings: enSettings,
         profile: enProfile,
-        footer: enFooter
+        footer: enFooter,
+        hogar: enHogar
       }
     },
     lng: 'es',
     fallbackLng: 'en',
-    ns: ['landing', 'login', 'dashboard', 'settings', 'profile', 'footer', 'register'], 
+    ns: ['landing', 'login', 'dashboard', 'settings', 'profile', 'footer', 'register', 'hogar'], 
     defaultNS: 'landing',
     interpolation: {
       escapeValue: false

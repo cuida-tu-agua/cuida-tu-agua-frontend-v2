@@ -1,0 +1,37 @@
+{
+  "createTitle": "Register home",
+  "editTitle": "Edit home",
+  "fields": {
+    "name": "Home name",
+    "address": "Address",
+    "phone": "Phone",
+    "country": "Country",
+    "stratum": "Stratum",
+    "inhabitants": "Number of inhabitants"
+  },
+  "action": {
+    "create": "Register",
+    "save": "Save changes"
+  },
+  "feedback": {
+    "errorTitle": "Error",
+    "emptyHomeName": "Enter the home name",
+    "emptyAddress": "Enter the address",
+    "emptyPhone": "Enter your phone number",
+    "invalidPhone": "Enter a number with 10 to 15 digits",
+    "emptyStratum": "Enter the stratum",
+    "invalidNumber": "Enter a valid number",
+    "emptyInhabitants": "Enter the number of inhabitants",
+    "duplicateAddress": "A home is already registered with that address",
+    "duplicatePhone": "A home is already registered with that phone number",
+    "notFound": "Could not find the home you're trying to edit",
+    "saveError": "Could not save the home. Please try again.",
+    "loadError": "Could not load the home's data."
+  },
+  "success": {
+    "createTitle": "Home registered",
+    "createMessage": "The home was registered successfully.",
+    "editTitle": "Home updated",
+    "editMessage": "Your changes were saved successfully."
+  }
+}

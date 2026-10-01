@@ -1,0 +1,37 @@
+{
+  "createTitle": "Registrar residência",
+  "editTitle": "Editar residência",
+  "fields": {
+    "name": "Nome da residência",
+    "address": "Endereço",
+    "phone": "Telefone",
+    "country": "País",
+    "stratum": "Estrato",
+    "inhabitants": "Número de habitantes"
+  },
+  "action": {
+    "create": "Registrar",
+    "save": "Salvar alterações"
+  },
+  "feedback": {
+    "errorTitle": "Erro",
+    "emptyHomeName": "Digite o nome da residência",
+    "emptyAddress": "Digite o endereço",
+    "emptyPhone": "Digite seu número de telefone",
+    "invalidPhone": "Digite um número com 10 a 15 dígitos",
+    "emptyStratum": "Digite o estrato",
+    "invalidNumber": "Digite um número válido",
+    "emptyInhabitants": "Digite o número de habitantes",
+    "duplicateAddress": "Já existe uma residência registrada com esse endereço",
+    "duplicatePhone": "Já existe uma residência registrada com esse número de telefone",
+    "notFound": "Não foi possível encontrar a residência que você está tentando editar",
+    "saveError": "Não foi possível salvar a residência. Tente novamente.",
+    "loadError": "Não foi possível carregar os dados da residência."
+  },
+  "success": {
+    "createTitle": "Residência registrada",
+    "createMessage": "A residência foi registrada com sucesso.",
+    "editTitle": "Residência atualizada",
+    "editMessage": "As alterações foram salvas com sucesso."
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "createTitle": "Registrar hogar",
+  "editTitle": "Editar hogar",
+  "fields": {
+    "name": "Nombre del hogar",
+    "address": "Dirección",
+    "phone": "Teléfono",
+    "country": "País",
+    "stratum": "Estrato",
+    "inhabitants": "Número de habitantes"
+  },
+  "action": {
+    "create": "Registrar",
+    "save": "Guardar cambios"
+  },
+  "feedback": {
+    "errorTitle": "Error",
+    "emptyHomeName": "Ingresa el nombre del hogar",
+    "emptyAddress": "Ingresa la dirección",
+    "emptyPhone": "Ingresa tu número de teléfono",
+    "invalidPhone": "Ingresa un número con entre 10 y 15 dígitos",
+    "emptyStratum": "Ingresa el estrato",
+    "invalidNumber": "Ingresa un número válido",
+    "emptyInhabitants": "Ingresa habitantes",
+    "duplicateAddress": "Ya existe un hogar registrado con esa dirección",
+    "duplicatePhone": "Ya existe un hogar registrado con ese número de teléfono",
+    "notFound": "No se encontró el hogar que intentas editar",
+    "saveError": "No se pudo guardar el hogar. Intenta de nuevo.",
+    "loadError": "No se pudieron cargar los datos del hogar."
+  },
+  "success": {
+    "createTitle": "Hogar registrado",
+    "createMessage": "El hogar se registró correctamente.",
+    "editTitle": "Hogar actualizado",
+    "editMessage": "Los cambios se guardaron correctamente."
+  }
+}

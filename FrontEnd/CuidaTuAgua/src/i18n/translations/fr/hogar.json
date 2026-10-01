@@ -1,0 +1,37 @@
+{
+  "createTitle": "Enregistrer un foyer",
+  "editTitle": "Modifier le foyer",
+  "fields": {
+    "name": "Nom du foyer",
+    "address": "Adresse",
+    "phone": "Téléphone",
+    "country": "Pays",
+    "stratum": "Strate",
+    "inhabitants": "Nombre d'habitants"
+  },
+  "action": {
+    "create": "Enregistrer",
+    "save": "Enregistrer les modifications"
+  },
+  "feedback": {
+    "errorTitle": "Erreur",
+    "emptyHomeName": "Entrez le nom du foyer",
+    "emptyAddress": "Entrez l'adresse",
+    "emptyPhone": "Entrez votre numéro de téléphone",
+    "invalidPhone": "Entrez un numéro entre 10 et 15 chiffres",
+    "emptyStratum": "Entrez la strate",
+    "invalidNumber": "Entrez un nombre valide",
+    "emptyInhabitants": "Entrez le nombre d'habitants",
+    "duplicateAddress": "Un foyer est déjà enregistré avec cette adresse",
+    "duplicatePhone": "Un foyer est déjà enregistré avec ce numéro de téléphone",
+    "notFound": "Impossible de trouver le foyer que vous essayez de modifier",
+    "saveError": "Impossible d'enregistrer le foyer. Réessayez.",
+    "loadError": "Impossible de charger les données du foyer."
+  },
+  "success": {
+    "createTitle": "Foyer enregistré",
+    "createMessage": "Le foyer a été enregistré avec succès.",
+    "editTitle": "Foyer mis à jour",
+    "editMessage": "Vos modifications ont été enregistrées avec succès."
+  }
+}
